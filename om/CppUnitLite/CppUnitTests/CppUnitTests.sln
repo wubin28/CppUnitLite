@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppUnitTests", "CppUnitTests.vcxproj", "{3354E516-CD47-4A8B-A389-A14FCAEA7D7C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestHarness", "..\Cpp\TestHarness\TestHarness.vcxproj", "{D16E3728-58C1-437D-81D3-3DD38EE400CD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Deque", "..\Cpp\Deque\Deque.vcxproj", "{97AF1127-1117-4179-95AA-0F04AB6AB4C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Template|Win32 = Template|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3354E516-CD47-4A8B-A389-A14FCAEA7D7C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3354E516-CD47-4A8B-A389-A14FCAEA7D7C}.Debug|Win32.Build.0 = Debug|Win32
+		{3354E516-CD47-4A8B-A389-A14FCAEA7D7C}.Release|Win32.ActiveCfg = Release|Win32
+		{3354E516-CD47-4A8B-A389-A14FCAEA7D7C}.Release|Win32.Build.0 = Release|Win32
+		{3354E516-CD47-4A8B-A389-A14FCAEA7D7C}.Template|Win32.ActiveCfg = Release|Win32
+		{D16E3728-58C1-437D-81D3-3DD38EE400CD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D16E3728-58C1-437D-81D3-3DD38EE400CD}.Debug|Win32.Build.0 = Debug|Win32
+		{D16E3728-58C1-437D-81D3-3DD38EE400CD}.Release|Win32.ActiveCfg = Release|Win32
+		{D16E3728-58C1-437D-81D3-3DD38EE400CD}.Release|Win32.Build.0 = Release|Win32
+		{D16E3728-58C1-437D-81D3-3DD38EE400CD}.Template|Win32.ActiveCfg = Template|Win32
+		{D16E3728-58C1-437D-81D3-3DD38EE400CD}.Template|Win32.Build.0 = Template|Win32
+		{97AF1127-1117-4179-95AA-0F04AB6AB4C9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{97AF1127-1117-4179-95AA-0F04AB6AB4C9}.Debug|Win32.Build.0 = Debug|Win32
+		{97AF1127-1117-4179-95AA-0F04AB6AB4C9}.Release|Win32.ActiveCfg = Release|Win32
+		{97AF1127-1117-4179-95AA-0F04AB6AB4C9}.Release|Win32.Build.0 = Release|Win32
+		{97AF1127-1117-4179-95AA-0F04AB6AB4C9}.Template|Win32.ActiveCfg = Template|Win32
+		{97AF1127-1117-4179-95AA-0F04AB6AB4C9}.Template|Win32.Build.0 = Template|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

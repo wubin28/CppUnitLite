@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{a1318a2e-8681-4fd9-9c98-07d91af3e4e8}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{24b38c9a-b43e-49b2-a596-ce324db8e43d}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestRegistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestResult.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Failure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestHarness.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestRegistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestResult.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
